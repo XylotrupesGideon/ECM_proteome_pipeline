@@ -1,0 +1,129 @@
+LOCUS       NEP8_NEMVE               313 aa            linear   INV 03-AUG-2022
+DEFINITION  RecName: Full=Nematocyst expressed protein 8; Short=NEP-8;
+            Short=NEP8; Flags: Precursor.
+ACCESSION   A7SXG9
+VERSION     A7SXG9.2
+KEYWORDS    Disulfide bond; Nematocyst; Reference proteome; Repeat; Secreted;
+            Signal; Toxin.
+SOURCE      Nematostella vectensis (starlet sea anemone)
+  ORGANISM  Nematostella vectensis
+            Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria;
+            Edwardsiidae; Nematostella.
+DBSOURCE    UniProtKB: locus NEP8_NEMVE, accession A7SXG9; class: standard. created: Sep 29, 2021. sequence updated: Sep 29, 2021. annotation updated: Aug 3, 2022. xrefs: DS469888.1, EDO31595.1, XP_001623695.1 xrefs (non-sequence databases): SMR:A7SXG9, EnsemblMetazoa:EDO31595, EnsemblMetazoa:EDO31595, EnsemblMetazoa:NEMVEDRAFT_v1g219037, HOGENOM:CLU_683908_0_0_1, OrthoDB:1597243at2759, Proteomes:UP000001593, GO:0005576, GO:0042151, GO:0090729, InterPro:IPR003582, Pfam:PF01549, SMART:SM00254, PROSITE:PS51670
+REFERENCE   1  (residues 1 to 313)
+  AUTHORS   Putnam,N.H., Srivastava,M., Hellsten,U., Dirks,B., Chapman,J.,
+            Salamov,A., Terry,A., Shapiro,H., Lindquist,E., Kapitonov,V.V.,
+            Jurka,J., Genikhovich,G., Grigoriev,I.V., Lucas,S.M., Steele,R.E.,
+            Finnerty,J.R., Technau,U., Martindale,M.Q. and Rokhsar,D.S.
+  TITLE     Sea anemone genome reveals ancestral eumetazoan gene repertoire and
+            genomic organization
+  JOURNAL   Science 317 (5834), 86-94 (2007)
+   PUBMED   17615350
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].; STRAIN=CH2 X CH6
+            {ECO:0000312|Proteomes:UP000001593}
+REFERENCE   2  (residues 1 to 313)
+  AUTHORS   Moran,Y., Praher,D., Schlesinger,A., Ayalon,A., Tal,Y. and
+            Technau,U.
+  TITLE     Analysis of soluble protein contents from the nematocysts of a model
+            sea anemone sheds light on venom evolution
+  JOURNAL   Mar. Biotechnol. 15, 329-339 (2013)
+   PUBMED   23151943
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA], IDENTIFICATION BY MASS
+            SPECTROMETRY, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+REFERENCE   3  (residues 1 to 313)
+  AUTHORS   Columbus-Shenkar,Y.Y., Sachkova,M.Y., Macrander,J., Fridrich,A.,
+            Modepalli,V., Reitzel,A.M., Sunagar,K. and Moran,Y.
+  TITLE     Dynamics of venom composition across a complex life cycle
+  JOURNAL   Elife 7, e35014 (2018)
+   PUBMED   29424690
+  REMARK    PROBABLE FUNCTION, DEVELOPMENTAL STAGE, AND TISSUE SPECIFICITY.
+            Publication Status: Online-Only
+COMMENT     [FUNCTION] Probable toxin probably only used for predation.
+            {ECO:0000305|PubMed:29424690}.
+            [SUBCELLULAR LOCATION] Nematocyst {ECO:0000269|PubMed:23151943}.
+            Secreted {ECO:0000269|PubMed:23151943}.
+            [TISSUE SPECIFICITY] Nematocytes (PubMed:23151943,
+            PubMed:29424690). In late planulae, is only expressed in a handful
+            of nematocytes in the lower pharynx (PubMed:29424690). Is absent
+            from the tentacles and outer body wall (PubMed:29424690).
+            {ECO:0000269|PubMed:23151943, ECO:0000269|PubMed:29424690}.
+            [DEVELOPMENTAL STAGE] Transcripts are weakly expressed in
+            gastrulae, early and late planulae, metamorphosing planulae, and
+            primary polyps. {ECO:0000269|PubMed:29424690}.
+            [SIMILARITY] Belongs to the NEP3 family. {ECO:0000305}.
+            [SEQUENCE CAUTION] Sequence=EDO31595.1; Type=Erroneous gene model
+            prediction; Evidence={ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..313
+                     /organism="Nematostella vectensis"
+                     /db_xref="taxon:45351"
+     gene            1..313
+                     /locus_tag="v1g219037"
+     Protein         1..313
+                     /product="Nematocyst expressed protein 8"
+                     /note="NEP-8; NEP8"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..19
+                     /region_name="Signal"
+                     /note="/evidence=ECO:0000255."
+     Region          20..313
+                     /region_name="Mature chain"
+                     /note="Nematocyst expressed protein 8.
+                     /evidence=ECO:0000305. /id=PRO_0000453821."
+     Region          24..56
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          65..99
+                     /region_name="Domain"
+                     /note="ShKT 1. /evidence=ECO:0000305|PubMed:29424690."
+     Bond            bond(65,99)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000305."
+     Bond            bond(72,92)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000305."
+     Bond            bond(81,96)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000305."
+     Region          109..145
+                     /region_name="Domain"
+                     /note="ShKT 2. /evidence=ECO:0000305|PubMed:29424690."
+     Bond            bond(109,145)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000305."
+     Bond            bond(127,142)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000305."
+     Region          151..186
+                     /region_name="Domain"
+                     /note="ShKT 3.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01005."
+     Bond            bond(160,179)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU01005."
+     Bond            bond(169,183)
+                     /bond_type="disulfide"
+                     /note="/evidence=ECO:0000255|PROSITE-ProRule:PRU01005."
+     Region          222..313
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          222..240
+                     /region_name="Compositionally biased region"
+                     /note="Polar residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          241..274
+                     /region_name="Compositionally biased region"
+                     /note="Pro residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          283..297
+                     /region_name="Compositionally biased region"
+                     /note="Acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+ORIGIN
+        1 mlrrplllvl ftvfstlyak dlrgvspptn eseaevspgd degppepgne pdvnwrtlti
+       61 dpedckdkgk dcesladegn clkklnyavg ncpwtcrfck kengdskkck dlagerhcng
+      121 wkvkgdcvrl pdymmqnckl scelcgpetr fkytdedvrc pewaqagycs tntdinlkcp
+      181 hscrkykqra pastpypypv ealhpyqyrv vlpsvtilqt ttaapstqpa ettkappnta
+      241 aptaaptpap tpapapaptp apvapapqta plagsppest peeqddnsad esteieageg
+      301 ggelcdekhs sqq
+//

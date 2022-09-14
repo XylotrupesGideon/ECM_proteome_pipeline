@@ -1,0 +1,56 @@
+LOCUS       XP_001636042             471 aa            linear   INV 21-JUN-2022
+DEFINITION  metalloprotease TIKI homolog [Nematostella vectensis].
+ACCESSION   XP_001636042
+VERSION     XP_001636042.2
+DBLINK      BioProject: PRJNA847078
+KEYWORDS    RefSeq.
+SOURCE      Nematostella vectensis (starlet sea anemone)
+  ORGANISM  Nematostella vectensis
+            Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria;
+            Edwardsiidae; Nematostella.
+DBSOURCE    REFSEQ: accession XM_001635992.3
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name :: Nematostella vectensis Annotation Release 101
+            Annotation Version          :: 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Software Version :: 9.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_064034) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 9, 2020 this sequence version replaced XP_001636042.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..471
+                     /organism="Nematostella vectensis"
+                     /db_xref="taxon:45351"
+                     /chromosome="1"
+     Protein         1..471
+                     /product="metalloprotease TIKI homolog"
+                     /calculated_mol_wt="54913"
+     Region          47..356
+                     /region_name="Tiki"
+                     /note="Tiki homology domain antagonizes Wnt function via
+                     cleavage of amino-terminal residues; cd14789"
+                     /db_xref="CDD:350614"
+     CDS             1..471
+                     /gene="LOC5515928"
+                     /coded_by="XM_001635992.3:357..1772"
+                     /db_xref="GeneID:5515928"
+ORIGIN
+        1 maaftlwilv lnvfllgfqa rklasnlkfp iqkcddstpq knfnsflwlv krtppayfyg
+       61 tihvpytrvw dfipmnskqa ftasqhvyfe ldltdektmr almkcqmlps gtmlrqtlpr
+      121 kmfkrlkshl ryikrmipkw ikhrdqetss agpyanklye mltkdwdkkr piwvmlmvns
+      181 ltesdiktrg ipvldqylal easrnhklig avenvdeqck plnalnasqv vfalnqslhf
+      241 qerlrrgqvq vtyttddlid hyncgdlksv lfstqtslpt ltvnssleqr erkraqeidq
+      301 yfrnelifqr nkrmaqrvit llnnhpekdf ffafgaghfl gnhsiidimk khgydveyvk
+      361 peqelpsfka kkslntrrer rkgcrgrrkk skrcqkkkkr krpdysrvrl lqvatrrwnp
+      421 trkpyptkls eapgardiss rkaaasctpi wtvslaltca vtclltysgf r
+//

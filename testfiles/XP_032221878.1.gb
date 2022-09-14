@@ -1,0 +1,249 @@
+LOCUS       XP_032221878.1           475 aa            linear   INV 22-SEP-2021
+DEFINITION  uncharacterized protein LOC5521024 isoform X2 [Nematostella
+            vectensis].
+ACCESSION   XP_032221878
+VERSION     XP_032221878.1
+DBLINK      BioProject: PRJNA19965
+KEYWORDS    RefSeq.
+SOURCE      Nematostella vectensis (starlet sea anemone)
+  ORGANISM  Nematostella vectensis
+            Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria;
+            Edwardsiidae; Nematostella.
+COMMENT     ##Imported_From-START##
+            Path     :: Z:\Gideon\Labwork\2020\Proteome\Stella_development_Full
+                        proteome all samples\new annotation
+            Filename :: ECM_seqsV2.gb
+            ##Imported_From-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            Annotation Status           :: Full annotation
+            Annotation Software Version :: 8.3
+            Annotation Name             :: Nematostella vectensis Annotation
+            Annotation Provider         :: NCBI
+            Annotation Version          :: 100
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             1..475
+                     /gene="LOC5521024"
+                     /coded_by="XM_032365987.1:256..1683"
+                     /db_xref="GeneID:5521024"
+     Protein         1..475
+                     /product="uncharacterized protein LOC5521024 isoform X2"
+                     /calculated_mol_wt=53217
+     source          1..475
+                     /organism="Nematostella vectensis"
+                     /strain="CH2 x CH6"
+                     /db_xref="taxon:45351"
+                     /chromosome="Unknown"
+                     /dev_stage="larval"
+     Superfamily     5..146
+                     /Database="SUPERFAMILY"
+                     /Id="SSF55797"
+                     /Name="PR-1-like"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR035940"">IPR
+                     035940</a>"
+                     /InterPro_Name="CAP_sf"
+                     /InterPro_Type="HOMOLOGOUS_SUPERFAMILY"
+                     /label="PR-1-like"
+     Gene3D          6..149
+                     /Database="GENE3D"
+                     /Id="G3DSA:3.40.33.10"
+                     /Name="CAP"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR035940"">IPR
+                     035940</a>"
+                     /InterPro_Name="CAP_sf"
+                     /InterPro_Type="HOMOLOGOUS_SUPERFAMILY"
+                     /label="CAP"
+     Region          8..137
+                     /region_name="CAP_GAPR1-like"
+                     /note="CAP (cysteine-rich secretory proteins, antigen 5,
+                     and pathogenesis-related 1 proteins) domain of
+                     Golgi-associated plant pathogenesis-related protein 1 and
+                     similar proteins; cd05382"
+                     /db_xref="CDD:349401"
+     SMART           join(8..139,328..464)
+                     /Database="SMART"
+                     /Id="SM00198"
+                     /Name="SCP_3"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR014044"">IPR
+                     014044</a>"
+                     /InterPro_Name="CAP_domain"
+                     /InterPro_Type="DOMAIN"
+                     /label="SCP_3"
+     Panther         join(8..145,326..470)
+                     /Database="PANTHER"
+                     /Id="PTHR10334:SF386"
+                     /Name="GOLGI-ASSOCIATED PLANT PATHOGENESIS-RELATED PROTEIN
+                     1"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/""></a>"
+                     /InterPro_Name="Unintegrated"
+                     /InterPro_Type="Unintegrated"
+                     /label="GOLGI-ASSOCIATED PLANT PATHOGENESIS-RELATED
+                     PROTEIN 1"
+     Panther         join(8..145,326..470)
+                     /Database="PANTHER"
+                     /Id="PTHR10334"
+                     /Name="CYSTEINE-RICH SECRETORY PROTEIN-RELATED"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR001283"">IPR
+                     001283</a>"
+                     /InterPro_Name="CRISP-related"
+                     /InterPro_Type="FAMILY"
+                     /label="CYSTEINE-RICH SECRETORY PROTEIN-RELATED"
+     CDD             8..137
+                     /Database="CDD"
+                     /Id="cd05382"
+                     /Name="CAP_GAPR1-like"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR034113"">IPR
+                     034113</a>"
+                     /InterPro_Name="SCP_GAPR1-like"
+                     /InterPro_Type="DOMAIN"
+                     /label="CAP_GAPR1-like"
+     Pfam            join(335..454,14..128)
+                     /Database="PFAM"
+                     /Id="PF00188"
+                     /Name="CAP"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR014044"">IPR
+                     014044</a>"
+                     /InterPro_Name="CAP_domain"
+                     /InterPro_Type="DOMAIN"
+                     /label="CAP"
+     MOBIDB_LITE     145..187
+                     /Database="MOBIDB_LITE"
+                     /Id="mobidb-lite"
+                     /Name="disorder_prediction"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/""></a>"
+                     /InterPro_Name="Unintegrated"
+                     /InterPro_Type="Unintegrated"
+                     /label="disorder_prediction"
+     MOBIDB_LITE     145..161
+                     /Database="MOBIDB_LITE"
+                     /Id="mobidb-lite"
+                     /Name="disorder_prediction"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/""></a>"
+                     /InterPro_Name="Unintegrated"
+                     /InterPro_Type="Unintegrated"
+                     /label="disorder_prediction"
+     MOBIDB_LITE     162..187
+                     /Database="MOBIDB_LITE"
+                     /Id="mobidb-lite"
+                     /Name="disorder_prediction"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/""></a>"
+                     /InterPro_Name="Unintegrated"
+                     /InterPro_Type="Unintegrated"
+                     /label="disorder_prediction"
+     MOBIDB_LITE     205..225
+                     /Database="MOBIDB_LITE"
+                     /Id="mobidb-lite"
+                     /Name="disorder_prediction"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/""></a>"
+                     /InterPro_Name="Unintegrated"
+                     /InterPro_Type="Unintegrated"
+                     /label="disorder_prediction"
+     MOBIDB_LITE     253..300
+                     /Database="MOBIDB_LITE"
+                     /Id="mobidb-lite"
+                     /Name="disorder_prediction"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/""></a>"
+                     /InterPro_Name="Unintegrated"
+                     /InterPro_Type="Unintegrated"
+                     /label="disorder_prediction"
+     MOBIDB_LITE     253..330
+                     /Database="MOBIDB_LITE"
+                     /Id="mobidb-lite"
+                     /Name="disorder_prediction"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/""></a>"
+                     /InterPro_Name="Unintegrated"
+                     /InterPro_Type="Unintegrated"
+                     /label="disorder_prediction"
+     MOBIDB_LITE     301..330
+                     /Database="MOBIDB_LITE"
+                     /Id="mobidb-lite"
+                     /Name="disorder_prediction"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/""></a>"
+                     /InterPro_Name="Unintegrated"
+                     /InterPro_Type="Unintegrated"
+                     /label="disorder_prediction"
+     Superfamily     322..470
+                     /Database="SUPERFAMILY"
+                     /Id="SSF55797"
+                     /Name="PR-1-like"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR035940"">IPR
+                     035940</a>"
+                     /InterPro_Name="CAP_sf"
+                     /InterPro_Type="HOMOLOGOUS_SUPERFAMILY"
+                     /label="PR-1-like"
+     Gene3D          323..475
+                     /Database="GENE3D"
+                     /Id="G3DSA:3.40.33.10"
+                     /Name="CAP"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR035940"">IPR
+                     035940</a>"
+                     /InterPro_Name="CAP_sf"
+                     /InterPro_Type="HOMOLOGOUS_SUPERFAMILY"
+                     /label="CAP"
+     Region          328..462
+                     /region_name="CAP_GAPR1-like"
+                     /note="CAP (cysteine-rich secretory proteins, antigen 5,
+                     and pathogenesis-related 1 proteins) domain of
+                     Golgi-associated plant pathogenesis-related protein 1 and
+                     similar proteins; cd05382"
+                     /db_xref="CDD:349401"
+     CDD             328..462
+                     /Database="CDD"
+                     /Id="cd05382"
+                     /Name="CAP_GAPR1-like"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR034113"">IPR
+                     034113</a>"
+                     /InterPro_Name="SCP_GAPR1-like"
+                     /InterPro_Type="DOMAIN"
+                     /label="CAP_GAPR1-like"
+     PRINTS          join(349..367,401..414,423..439,451..464)
+                     /Database="PRINTS"
+                     /Id="PR00837"
+                     /Name="V5TPXLIKE"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR001283"">IPR
+                     001283</a>"
+                     /InterPro_Name="CRISP-related"
+                     /InterPro_Type="FAMILY"
+                     /label="V5TPXLIKE"
+     misc_feature    424..434
+                     /Database="PROSITE_PATTERNS"
+                     /Id="PS01009"
+                     /Name="CRISP_1"
+                     /InterPro_ID="<a
+                     href=""http://www.ebi.ac.uk/interpro/entry/IPR018244"">IPR
+                     018244</a>"
+                     /InterPro_Name="Allrgn_V5/Tpx1_CS"
+                     /InterPro_Type="CONSERVED_SITE"
+                     /label="CRISP_1"
+                     /note="Geneious type: PROSITE_PATTERNS"
+ORIGIN      
+        1 mnfllldsfs kealdtinkf rekhqspplk wsrglakdae awarecaqsn tlssadtddg
+       61 eniyglsgra evkghepidk wydgsknysf dnpgfkrdag nftqlvwkss revgigkais
+      121 ssgnavvvar frpagnvqgr yeqnvfpakg snspssttrv yssriekhds kplnterpsg
+      181 srekswndkk ddffkkfedl girhkekdkg gktketttye rgpggrtvit ktvvtkagdg
+      241 gsphsvhrei rttykhegdn dsgwkggarr nydnddffkn ddigsrsyrr eekkkeyspq
+      301 isrtqvktdr pssgggsapk sstpidrsfk nqcvdnhnky ramhsapplk wsdelareaq
+      361 yyaeklaqqr smqhsskcsr ndagenlamf sgrydtagdm acemwyeesk kysfvrggsq
+      421 mgtghftqmv wkgskelgmg raktsdgrct yvvaryqpag nivnymsenv apkrc
+//
